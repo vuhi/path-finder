@@ -1,0 +1,27 @@
+.nav {
+  .app-icon-btn {
+    grid-template-areas:
+    'i n1'
+    'i n2';
+
+    .app-icon {
+      grid-area: i;
+    }
+
+    .app-name-1, .app-name-2 {
+      text-align: left;
+      padding: 0 10px;
+      font-weight: bold;
+    }
+
+    .app-name-1 {
+      grid-area: n1;
+    }
+
+    .app-name-2 {
+      grid-area: n2;
+    }
+  }
+}
+
+
